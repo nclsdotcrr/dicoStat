@@ -4,4 +4,4 @@ var='z'
 
 # Compteur d'occurrence de "var"
 echo -e $var | grep -oi "$var" $fichier | wc -m
-echo 'nombre de lettres :' | wc -m test.txt
+echo 'nombre de lettres :' | wc -m dico.txt
